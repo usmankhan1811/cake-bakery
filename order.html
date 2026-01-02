@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Cake Bakery</h1>
+    <p>Fresh & Delicious Cakes</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="order.html">Order</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main>
+<h2>Place Your Order</h2>
+
+<form id="orderForm">
+  
+
+  <label>Name</label><br>
+  <input type="text" id="name"><br><br>
+
+  <label>Cake Type</label><br>
+  <select id="cake">
+    <option value="">Select Cake</option>
+    <option>Chocolate Cake</option>
+    <option>Vanilla Cake</option>
+    <option>Strawberry Cake</option>
+  </select><br><br>
+
+  <label>Quantity</label><br>
+  <input type="number" id="quantity"><br><br>
+
+  <button type="submit">Place Order</button>
+
+  <button type="button" id="resetBtn">Reset</button>
+
+  <p id="total"></p>
+
+
+  <p id="message"></p>
+
+</form>
+
+<div id="summary"></div>
+
+<p id="thanks"></p>
+
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Cake Bakery</p>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+
+
+  
+</body>
+</html>
